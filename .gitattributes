@@ -1,2 +1,6 @@
-* text=auto
-*.js text eol=lf
+# Ignore line ending changes for specific files
+Pipfile text eol=lf
+Pipfile.lock text eol=lf
+frontend/src/api.js text eol=lf
+frontend/src/constants.js text eol=lf
+frontend/vite.config.js text eol=lf
